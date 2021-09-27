@@ -10,7 +10,7 @@ with open("config.json") as config_file:
     data = json.load(config_file)
 webhookurl = data["discordwebhook"]
 webhook = DiscordWebhook(url=webhookurl, username="Cat Detection 2000")
-face_cascade = cv2.CascadeClassifier('haarcascade_frontalcatface.xml')
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalcatface_extended.xml')
 
 # capture from a camera, 0 = default cam, can change if you have more, eg 1, 2
 cap = cv2.VideoCapture(0)
