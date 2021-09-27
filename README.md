@@ -3,10 +3,10 @@ A python program that can recognise cats from a camera input, and can take pictu
 
 ## How to use:
 
-* 1. Have all of the needed python pip packages installed (see `requirements.txt`).
-* 2. Go into `config.json` and paste your discord webhook link in `discordwebhook`.
-* 3. Start the script `main.py` and make sure a camera is connected to your computer correctly, otherwise it will give an error.
-* 4. Show the *front* of a cat, it only scans for the front of the cat.  
+1. Have all of the needed python pip packages installed (see `requirements.txt`).
+2. Go into `config.json` and paste your discord webhook link in `discordwebhook`.
+3. Start the script `main.py` and make sure a camera is connected to your computer correctly, otherwise it will give an error.
+4. Show the *front* of a cat, it only scans for the front of the cat.  
 
 It's the ESC key to exit the script.
 
