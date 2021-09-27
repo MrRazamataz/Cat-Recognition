@@ -17,3 +17,6 @@ Upon a picture taking, or the ESC key (anywhere that `cv2.destroyAllWindows()` a
 ## Credits:
 
 All the actual hardwork was done by the people over at https://github.com/opencv/opencv , including the file that includes what a "cat" looks like (psst, `haarcascade_frontalcatface.xml`).
+
+## Example:
+
